@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Mihai Petcu's resume website",
+  "main": "index.html",
+  "scripts": {
+    "build-stylus": "stylus -w ./styl/main.styl -o ./main.css",
+    "build-dev": "npm run build-stylus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petcu-mihai/resume.git"
+  },
+  "author": "Mihai Petcu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petcu-mihai/resume/issues"
+  },
+  "homepage": "https://github.com/petcu-mihai/resume#readme",
+  "devDependencies": {
+    "stylus":             ">= 0.54.5"
+  }
+}
