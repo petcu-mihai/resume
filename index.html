@@ -14,8 +14,29 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 
-<body>
-    <img src="./pics/profile.png" class="rounded-circle img-thumbnail" alt="Mihai Petcu">
+<body class="container">
+    <div class="row justify-content-center align-items-center h-25">
+        <div class="col-4">
+            <img src="./pics/profile.png" class="rounded-circle img-thumbnail" alt="Mihai Petcu">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <form>
+                <div class="form-group">
+                    <input id="name" class="form-control" type="text" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input id="subject" class="form-control" type="text" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" class="form-control" rows="10" placeholder="Hi there..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Say hello!</button>
+            </form>
+        </div>
+    </div>
+
 </body>
 
 </html>
